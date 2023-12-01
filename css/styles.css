@@ -117,6 +117,7 @@ cursor: pointer;
 { background-color: var(--color-titles-body);}
 
 .h3-title {
+  background-color: #ffffffff;
   color: var(--color-titles-body);
   font-size: 20px;
   font-style: normal;
