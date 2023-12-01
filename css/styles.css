@@ -116,6 +116,11 @@ cursor: pointer;
 .section-dark
 { background-color: var(--color-titles-body);}
 
+.titlu {
+    color: var(--color-titles-body);
+    background-color: #ffffffff;
+}
+
 .h3-title {
   background-color: #ffffffff;
   color: var(--color-titles-body);
@@ -136,7 +141,7 @@ letter-spacing: 0.4px;
 
 .section-light
 {
-    background-color: var(--color-light);
+background-color: var(--color-light);
 }
 
 .title-web-studio
@@ -150,9 +155,8 @@ line-height: 107.143%;
 letter-spacing: 1.12px;
 }
 
-.subtitle-web-studio-blue{
-color: var(--color-titles-body);
-background-color: #ffffffff;
+.subtitle-web-studio-blue
+{
 text-align: center;
 font-size: 36px;
 font-style: normal;
