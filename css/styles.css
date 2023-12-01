@@ -20,7 +20,8 @@ body {
 }
 
 .link:hover,
-:focus{
+:focus
+{
     text-decoration: none;
     color: #404bbf;
     background-color: #404bbf;
