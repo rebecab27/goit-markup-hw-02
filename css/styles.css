@@ -129,7 +129,7 @@ cursor: pointer;
     background-color: var(--color-light);
 }
 
-.h1-title-white
+.h1-title-web-studio
 {
 color: #FFF;
 text-align: center;
@@ -183,11 +183,3 @@ letter-spacing: 0.02em;
 .footer {
   background-color: var(--color-titles-body);
 }
-
-.link-item {
-    text-decoration: none;
-  }
-  
-  .link-item img {
-    width: 360px;
-  }
