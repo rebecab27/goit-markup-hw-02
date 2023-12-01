@@ -112,7 +112,7 @@ cursor: pointer;
 
 .section-dark
 { background-color: var(--color-titles-body);}
-.h3 {
+.h3-title {
   color: var(--color-titles-body);
   font-size: 20px;
   font-style: normal;
@@ -126,7 +126,7 @@ cursor: pointer;
     background-color: var(--color-light);
 }
 
-.h1
+.h1-title
 {
 color: #FFF;
 text-align: center;
