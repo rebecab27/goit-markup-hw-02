@@ -19,12 +19,14 @@ body {
   text-decoration: none;
 }
 
-.link:hover,
-:focus
+.link:hover
 {
-    text-decoration: none;
     color: #404bbf;
-    background-color: #404bbf;
+}
+
+.link:focus
+{
+    color: #404bbf;
 }
 
 .logo {
