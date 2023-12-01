@@ -149,6 +149,16 @@ text-transform: capitalize;
 line-height: 1.11;
 
 }
+
+.h2-title{
+color: var(--color-titles-body);
+font-weight: 500;
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+
+}
+
 .p-body {
   color: var(--color-p-body);
   font-size: 16px;
