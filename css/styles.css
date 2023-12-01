@@ -9,7 +9,7 @@
 body {
   font-family: "Roboto", sans-serif;
   color: var(--color-p-body);
-  background-color: var(--color-light);
+  background-color: var(--white-color);
 }
 
 .list {
