@@ -145,6 +145,11 @@ letter-spacing: 0.4px;
 background-color: var(--color-light);
 }
 
+.title
+{
+background-color: #ffffffff;
+
+}
 .title-web-studio
 {
 color: #FFF;
