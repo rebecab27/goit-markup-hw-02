@@ -3,10 +3,13 @@
   --color-light: #f4f4fd;
   --color-titles-body: #2e2f42;
   --color-p-body: #434455;
+  --white-color: #ffffffff;
 }
 
 body {
   font-family: "Roboto", sans-serif;
+  color: var(--color-p-body);
+  background-color: var(--color-light);
 }
 
 .list {
@@ -14,6 +17,12 @@ body {
 }
 .link {
   text-decoration: none;
+}
+
+.link:hover,:focus{
+    text-decoration: none;
+    color: #404bbf;
+    background-color: #404bbf;
 }
 
 .logo {
@@ -24,6 +33,7 @@ body {
   line-height: 116.667%;
   letter-spacing: 0.54px;
   text-transform: uppercase;
+  line-height: 1.17;
 }
 
 .logo-header {
@@ -86,8 +96,15 @@ gap: 10px;
 border-radius: 4px;
 background: var(--color-text);
 box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
+cursor: pointer;
+}
+.order-service-button:hover,:focus{
+    color: background-color: #404bbf;;
+    background-color: #404bbf;
 }
 
+.section-dark
+{ background-color: var(--color-titles-body);}
 .h3 {
   color: var(--color-titles-body);
   font-size: 20px;
@@ -95,6 +112,11 @@ box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
   font-weight: 500;
   line-height: 120%;
   letter-spacing: 0.4px;
+}
+
+.section-light
+{
+    background-color: var(--color-light);
 }
 
 .h1
