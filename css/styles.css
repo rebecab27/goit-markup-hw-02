@@ -160,3 +160,12 @@ text-transform: capitalize;
 .footer {
   background-color: var(--color-titles-body);
 }
+
+.link-item {
+    text-decoration: none;
+  }
+  
+  .link-item img {
+    width: 360px;
+  }
+  
