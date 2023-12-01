@@ -129,7 +129,7 @@ cursor: pointer;
     background-color: var(--color-light);
 }
 
-.h1-title
+.h1-title-white
 {
 color: #FFF;
 text-align: center;
@@ -140,8 +140,9 @@ line-height: 107.143%;
 letter-spacing: 1.12px;
 }
 
-.h2{
+.h2-title-blue{
 color: var(--color-titles-body);
+background-color: #ffffffff;
 text-align: center;
 font-size: 36px;
 font-style: normal;
