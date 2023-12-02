@@ -83,7 +83,6 @@ body {
   font-size: 16px;
   font-weight: 500;
   display: flex;
-  padding: 12px 24px;
   justify-content: center;
   align-items: center;
 }
@@ -104,12 +103,8 @@ font-weight: 500;
 line-height: 150%;
 letter-spacing: 0.64px;
 display: inline-flex;
-padding: 16px 32px;
 align-items: flex-start;
-gap: 10px;
-border-radius: 4px;
 background: var(--color-text);
-box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.15);
 cursor: pointer;
 }
 .order-service-button:hover,
@@ -122,7 +117,7 @@ background-color: #404bbf;
 .section-dark
 { background-color: var(--color-titles-body);}
 
-.h3-title {
+.three-title {
   background-color: #ffffffff;
   color: var(--color-titles-body);
   font-size: 20px;
@@ -131,7 +126,7 @@ background-color: #404bbf;
   line-height: 120%;
   letter-spacing: 0.4px;
 }
-.h2-title{
+.two-title{
 color: var(--color-titles-body);
 font-size: 20px;
 font-style: normal;
